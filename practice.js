@@ -46,8 +46,8 @@ var welcome = function() {
 
 //What is the difference between arguments and parameters?
 
-  //Answer Here
-
+//A parameter is the variable, obj, string etc that is listed in the function
+//An argument is the actual value of the parameter that is passed to the function
 
 //Next problem
 
@@ -56,7 +56,14 @@ var welcome = function() {
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 
-  //Answer Here
+  //NaN
+	//Nu
+	//null
+	//undefined
+	//0
+	//“”
+	//False
+
 
 
 
@@ -66,23 +73,19 @@ var welcome = function() {
 
 //Create a function called myName that returns your name
 
-  //Code Here
-
+var myName = function() {
+	return 'Dustin';
+}
 //Now save the function definition of myName into a new variable called newMyName
 
-  //Code Here
-
+var newMyName = myName();
 //Now alert the result of invoking newMyName
 
-
+alert(newMyName);
 
 //Next problem
 
-
-
 //Create a function called outerFn which returns an anonymous function which returns your name.
-
-  //Code Here
 
 //Now save the result of invoking outerFn into a variable called innerFn.
 
